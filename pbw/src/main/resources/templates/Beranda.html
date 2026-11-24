@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingkai Sunyi — Beranda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beranda.css">
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <p>Bingkai momen. Simpan cerita. &bull; Galeri bersama untuk setiap sudut pandang.</p>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="beranda.html" class="brand">Bingkai Sunyi</a>
+            <nav class="nav-links">
+                <a href="explore.html">GALERI</a>
+                <a href="#tentang">TENTANG KAMI</a>
+                <a href="#cara">CARA BERBAGI</a>
+            </nav>
+        </div>
+
+        <div class="nav-right">
+            <form action="explore.html" method="get" class="nav-search">
+                <input type="text" name="keyword" placeholder="Cari foto">
+            </form>
+            <a href="masuk.html" class="nav-login">MASUK</a>
+            <a href="daftar.html" class="btn-daftar">DAFTAR</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-left">
+                <h1>MOMEN SEDERHANA.<br>CERITA YANG<br>BERMAKNA.</h1>
+                <a href="daftar.html" class="btn-primary">BERGABUNG GRATIS</a>
+                <p class="hero-subtitle">Bagikan sudut pandangmu dan temukan inspirasi dari momen sehari-hari di sekitarmu.</p>
+                <a href="explore.html" class="link-arrow">Jelajahi galeri &rarr;</a>
+            </div>
+
+            <div class="hero-right">
+                <div class="slideshow">
+                    <div class="slide">
+                        <img src="../image/anders-jilden-cYrMQA7a3Wc-unsplash.jpg" alt="Sudut kota di sore hari">
+                        <span class="slide-author">@nadia.putri</span>
+                    </div>
+                    <div class="slide">
+                        <img src="../image/jack-anstey-XVoyX7l9ocY-unsplash.jpg" alt="Jeda kopi dan buku">
+                        <span class="slide-author">@dimas.aditya</span>
+                    </div>
+                    <div class="slide">
+                        <img src="../image/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Langit senja di tepi pantai">
+                        <span class="slide-author">@salsa.ayu</span>
+                    </div>
+                </div>
+
+                <div class="slideshow-controls">
+                    <span id="slide-counter">01 / 03</span>
+                    <div class="slide-buttons">
+                        <button type="button" id="prev-slide" aria-label="Slide sebelumnya">&larr;</button>
+                        <button type="button" id="next-slide" aria-label="Slide berikutnya">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="story-section">
+            <div class="story-block">
+                <h2>Setiap gambar<br>punya cerita.</h2>
+                <img src="../image/jack-anstey-XVoyX7l9ocY-unsplash.jpg" alt="Pemandangan lembah berkabut">
+            </div>
+
+            <div class="about-block">
+                <img src="../image/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Senja di tepi pantai">
+                <div class="about-text">
+                    <h3>Tentang Bingkai Sunyi</h3>
+                    <p>Kami percaya momen kecil layak dibagikan. Bingkai Sunyi adalah galeri bersama untuk menyimpan cerita, berbagi gambar, dan menemukan perspektif baru.</p>
+                    <a href="explore.html" class="link-arrow">Lihat cerita dari komunitas &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cara" class="steps-section">
+            <div class="step-item">
+                <span class="step-number">01</span>
+                <h3>Unggah momenmu</h3>
+                <p>Bagikan foto dan deskripsi singkat, maksimal 120 karakter.</p>
+            </div>
+
+            <div class="step-item">
+                <span class="step-number">02</span>
+                <h3>Tambahkan tag</h3>
+                <p>Pilih satu atau lebih tag agar ceritamu mudah ditemukan.</p>
+            </div>
+
+            <div class="step-item">
+                <span class="step-number">03</span>
+                <h3>Temukan inspirasi</h3>
+                <p>Cari deskripsi, gabungkan tag, dan jelajahi galeri bersama.</p>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="cta-text">
+                <h2>Sudut pandangmu layak dibagikan.</h2>
+                <p>Buat akun untuk mengunggah dan mengelola foto milikmu.</p>
+            </div>
+            <a href="daftar.html" class="btn-white">DAFTAR GRATIS</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Bingkai Sunyi</p>
+        <div class="footer-links">
+            <a href="#tentang">Tentang kami</a>
+            <a href="explore.html">Galeri</a>
+            <a href="#cara">Panduan komunitas</a>
+            <a href="#">Privasi</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
