@@ -5,23 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="explore.css">
 </head>
 
 <body>
     <header>
-
+        <a href="Beranda.html">Bingkai Sunyi</a>
+        <a href="explore.html">GALERI</a>
+        <form action="explore.html" method="get"><input type="text" name="keyword" placeholder="Cari foto"></form>
+        <a href="Login.html">MASUK</a>
+        <a href="Register.html">DAFTAR</a>
     </header>
 
-    <section>
+    <main>
+        <h1>Jelajahi</h1>
+        <a href="exoplore.html? tag=senja">#senja</a>
+        <select name="sort">
+            <option value="terbaru">
+                Terbaru
+            </option>
+            <option value="terlama">
+                Terlama
+            </option>
+        </select>
 
-    </section>
-
-    <div class="grid-galeri">
-        <div class="kartu-foto">
-
+        <div class="grid-galeri">
+            <div class="kartu-foto">
+                <img src="../image/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" alt="Gambar 1">
+                <p>Diantara tebing</p>
+                <span>@username</span>
+                <span>#tag</span>
+            </div>
+            <div class="kartu-foto">
+                <img src="../image/jack-anstey-XVoyX7l9ocY-unsplash.jpg" alt="Gambar 2">
+                <p>Kereta Berjalan</p>
+                <span>@username</span>
+                <span>#tag</span>
+            </div>
+            <div class="kartu-foto">
+                <img src="../image/anders-jilden-cYrMQA7a3Wc-unsplash.jpg" alt="Gambar 3">
+                <p>Kota dipinggir laut</p>
+                <span>@username</span>
+                <span>#tag</span>
+            </div>
+            <div class="kartu-foto">
+                <img src="../image/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" alt="Gambar 4">
+                <p>Pantai</p>
+                <span>@username</span>
+                <span>#tag</span>
+            </div>
         </div>
+        <nav aria-label="Navigasi halaman galeri">
+            <a href="explore.html? page=1">1</a>
+            <a href="explore.html? page=2">2</a>
 
-    </div>
+        </nav>
+    </main>
 
     <footer>
 
